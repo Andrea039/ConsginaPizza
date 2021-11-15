@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
