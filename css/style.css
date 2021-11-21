@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #E5E5E5;
 }
 
 a{
@@ -21,3 +22,81 @@ nav a{
     padding-right: 10px;
 }
 
+#banners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: #E5E5E5;
+}
+
+.banner-izquierda {  
+    position: relative;
+    left: 20px;
+}
+
+.banner-derecha {
+    position: relative;
+    background-color: white;
+    width: 490px;
+    height: 350px;
+    left:20px;
+}
+
+#banners p{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+    text-align: center;
+}
+
+#banners h3{
+    position: relative;
+}
+
+#banners h2{
+    text-align: center;
+}
+
+h3{
+    top:5px;
+    left:40px;
+}
+
+.img-comida{
+    position: relative;
+    left:65%;
+    top:-150px;
+    
+}
+ol li{
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.pie-pagina{
+    background-color: black;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+
+.img-pie{
+    position: absolute;
+    left:73%;
+    top:10%;
+}
+
+ul li{
+    margin-bottom: 5px;
+    font-family: Roboto;
+    color: white;
+}
